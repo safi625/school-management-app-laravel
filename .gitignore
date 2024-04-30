@@ -1,0 +1,57 @@
+# Laravel specific ignores
+
+/app
+/bootstrap
+/database
+/lang
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/resources
+/routes
+/storage
+/tests
+/vendor
+
+# Laravel specific files
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Common PHP ignores
+
+# Ignore any logs
+/storage/*.log
+
+# Ignore compiled PHP files
+*.php[co]
+
+# Ignore any SQLite database files
+/*.sqlite
+/*.sqlite3
+
+# Ignore any PHPUnit test results
+/phpunit.xml
+
+# Ignore Composer lock file
+composer.lock
+
+# Composer specific ignores
+
+# Ignore Composer installed packages
+/vendor
+
+# Ignore Composer generated autoload files
+/vendor/autoload.php
+/vendor/composer
+
+# Other ignores
+
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
